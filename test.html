@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+	$("#id1").toggleClass("hidden");
+    });
+});
+</script>
+<style>
+.hidden {
+    display: none;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a visible heading</h1>
+<h1 id="id1">This is a hidden heading</h1>
+<p>Notice that the hidden heading still takes up space.</p>
+<button>Hidden/Show</button>
+</body>
+</html>

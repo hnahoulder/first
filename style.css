@@ -1,0 +1,71 @@
+/*#map { height: 100%; }*/
+#wrapper {
+        position: relative;
+    }
+
+    #mapControls {
+        position: fixed;
+        top: 60px;
+        right: 1px;
+    }
+
+    .btn-transparent {
+        opacity: 0.8;
+    }
+
+    .btnRightPanelClose {
+        color: black
+    }
+
+    
+.mb30 {
+	margin-bottom:30px;
+}
+
+
+.tab-content {
+	top: 50px;
+}
+#map{
+	width: : auto;
+	height: auto;
+}
+.btnRightPanelClose {
+	color: black;
+}
+.rightpanel {
+   width: 250px;
+
+   position: absolute;
+/*    overflow-y: auto; */
+	overflow-y: auto;
+   top: 280px;
+   right: 0px;
+   z-index:1;
+   display: none;
+   padding-left: 5px;
+   padding-right: 5px;
+   padding-bottom: 5px;
+}
+.sidebartitle {
+	font-size: 1em;
+	text-transform: uppercase;
+	color: #999;
+	margin-bottom: 3%;
+}
+.chat-view {
+   display: block;
+}
+.chat-hidden{
+	display: none;
+}
+.map-edit{
+	cursor:crosshair;
+}
+.map-cursor-default{
+	cursor:default;
+}
+
+.cursor-zoomin{
+	cursor: -webkit-zoom-in; cursor: -moz-zoom-in;
+}
